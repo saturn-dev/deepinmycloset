@@ -25,6 +25,17 @@ select:focus-visible {
 }
 
 
+:root {
+  --bg: #0a0c10;
+  --panel: #101318;
+  --panel-2: #161c23;
+  --border: #1c232c;
+  --accent: #00ffa0;
+  --text: #e6e6e6;
+  --muted: #8b97a4;
+  --overlay: rgba(0,0,0,0.85);
+  
+}
 
 a {
   text-decoration: none;

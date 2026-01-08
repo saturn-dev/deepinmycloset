@@ -3,17 +3,6 @@
 @import url('main.css');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
 
-:root {
-  --bg: #0a0c10;
-  --panel: #101318;
-  --panel-2: #161c23;
-  --border: #1c232c;
-  --accent: #00ffa0;
-  --text: #e6e6e6;
-  --muted: #8b97a4;
-  --overlay: rgba(0,0,0,0.85);
-  
-}
 
 
 .tabs,
@@ -134,7 +123,7 @@ input {
 .qc-btn {
   height: 38px;
   flex-shrink: 0;
-  margin-top: auto; /* pushes it down to bottom */
+  margin-top: auto;
 }
 
 
@@ -153,7 +142,6 @@ input {
 .card:hover {
   background-color: #00ffa233;
     box-shadow: 0 20px 40px rgba(0, 255, 160, 0.3);
-      transform: rotateX(-12deg) scale(1.05);
 
 }
 
@@ -163,14 +151,14 @@ input {
   object-fit: cover;
   transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
   z-index: 0;
-  transform: scale(1.2);
+  transform: scale(1.1);
       margin-top: auto;
 
 }
 
 .card:hover img {
   transform: scale(2) rotate(3deg);
-  z-index: 2;
+  z-index: 5;
 }
 
 
@@ -250,7 +238,7 @@ input {
   background: transparent;
   color: var(--accent);
   border: 1px solid var(--accent);
-  z-index: 1;
+  z-index: 7;
   
 
 }
