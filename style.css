@@ -139,11 +139,7 @@ input {
  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
               box-shadow 0.3s,
               background-color 0.3s;}
-.card:hover {
-  background-color: #00ffa233;
-    box-shadow: 0 20px 40px rgba(0, 255, 160, 0.3);
 
-}
 
 .card img {
   width: 100%;
@@ -156,10 +152,7 @@ input {
 
 }
 
-.card:hover img {
-  transform: scale(2) rotate(3deg);
-  z-index: 5;
-}
+
 
 
 
@@ -284,11 +277,20 @@ input {
   }
 }
 
-@media (min-width: 3001px) {
+@media (max-width: 5001px) {
 .tab {
     padding: 12px 0;
     min-width: 0;
    flex: 1 1 0;
+}
+.card:hover {
+  background-color: #00ffa233;
+    box-shadow: 0 20px 40px rgba(0, 255, 160, 0.3);
+
+}
+.card:hover img {
+  transform: scale(2) rotate(3deg);
+  z-index: 5;
 }
 }
 
@@ -304,6 +306,15 @@ input {
    flex: 1 1 0;
 }
   
+.card:hover {
+  background-color: #00ffa233;
+    box-shadow: 0 20px 40px rgba(0, 255, 160, 0.3);
+
+}
+.card:hover img {
+  transform: scale(2) rotate(3deg);
+  z-index: 5;
+}
 
     .tabs,
   .controls,
@@ -345,6 +356,15 @@ input {
   z-index: 2;
 }
 
+.card:hover {
+  background-color: #00ffa233;
+    box-shadow: 0 20px 40px rgba(0, 255, 160, 0.3);
+
+}
+.card:hover img {
+  transform: scale(2) rotate(3deg);
+  z-index: 5;
+}
 
   .tab {
     padding: 12px 0;
@@ -373,6 +393,16 @@ input {
         min-width: 120px;  
         padding: 12px 12px; 
     }
+
+    .card:hover {
+  background-color: #00ffa233;
+    box-shadow: 0 20px 40px rgba(0, 255, 160, 0.3);
+
+}
+.card:hover img {
+  transform: scale(2) rotate(3deg);
+  z-index: 5;
+}
 
         .tabs,
   .controls,
@@ -416,6 +446,15 @@ input {
     order: 2;
     font-size: 17px;
   }
+
+  .card:hover {
+  background-color: #00ffa233;
+
+}
+.card:hover img {
+  transform: scale(1) rotate(3deg);
+  z-index: 5;
+}
 
     .menu-btn {
     display: block;
